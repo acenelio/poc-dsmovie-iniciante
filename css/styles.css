@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  --color-primary: #4D41C0;
+  --bg-gray: #e8e8e8;
+  --white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    background-color: var(--bg-gray);
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+header {
+    background-color: var(--color-primary);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--white);
+}
+
+.dsmovie-nav h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+}
