@@ -39,3 +39,13 @@ header {
     font-weight: 700;
     font-size: 24px;
 }
+
+.dsmovie-contact-container {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.dsmovie-contact-container img {
+    margin-right: 10px;
+}
