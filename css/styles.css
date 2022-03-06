@@ -2,7 +2,7 @@
 
 :root {
   --color-primary: #4D41C0;
-  --bg-gray: #e8e8e8;
+  --bg-gray: #ddd;
   --white: #fff;
 }
 
@@ -55,7 +55,7 @@ header {
 }
 
 .dsmovie-movie-card {
-    width: 360px;
+    width: 100%;
 }
 
 .dsmovie-movie-card img {
